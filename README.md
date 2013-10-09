@@ -1,7 +1,7 @@
 phototagger
 ===========
 
-PhotoTagger is an Android app for lizardbase's users to record the original data of lizards in the wild
+PhotoTagger is an Android app for lizardbase's users to record the original data of lizards in the wild.
 
 Screenshots
 ---------
