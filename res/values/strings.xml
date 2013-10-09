@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">PhotoTagger</string>
+	<string name="capture">Capture A New Photo</string>
+    <string name="tagphoto">Tag A Exisiting Photo</string>
+    <string name="config">Customer Settings</string>
+    
+    <string name="vldmsg_date">Date cannot be empty</string>
+    <string name="vldmsg_starttime">Start time cannot be empty</string>
+    <string name="vldmsg_endtime">End time cannot be empty</string>
+    <string name="vldmsg_starttmp">Start temperature cannot be empty</string>
+    <string name="vldmsg_endtmp">End temperature cannot be empty</string>
+    <string name="vldmsg_starthumidity">Start humidity cannot be empty</string>
+    <string name="vldmsg_endhumidity">End humidity cannot be empty</string>
+    <string name="vldmsg_cloudcover">Cloud cover cannot be empty</string>
+    <string name="vldmsg_windconditions">Wind conditions cannot be empty</string>
+    <string name="vldmsg_studysitelocation">Study site location cannot be empty</string>
+    <string name="vldmsg_latitude">Latitude cannot be empty</string>
+    <string name="vldmsg_longitude">Longitude cannot be empty</string>
+    <string name="vldmsg_lengthoftransect">Length of transect cannot be empty</string>
+    <string name="vldmsg_urbanization">Urbanization cannot be empty</string>
+    <string name="vldmsg_vegetationtypes">Vegetation types / Ecosystems cannot be empty</string>
+    <string name="vldmsg_species">Species cannot be empty</string>
+    <string name="vldmsg_heightaboveground">Height above ground cannot be empty</string>
+    <string name="vldmsg_restingspottmp">Resting spot temperature cannot be empty</string>
+    <string name="vldmsg_observersinitials">Observer(s) initials cannot be empty</string>
+    <string name="vldmsg_affiliatedschool">Affiliated school cannot be empty</string>
+    
+    <string name="msg_tagsaved">Tags have been saved</string>
+    <string name="msg_defaultvaluessaved">The values have been saved</string>
+    <string name="msg_accountsaved">Account settings have been saved</string>
+    <string name="msg_overwrite">The photo already exists on the server. Do you want to reupload it?</string>
+</resources>

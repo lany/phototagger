@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal"
+	android:background="#FFFFFF" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal">
+		<LinearLayout android:layout_height="70dp" android:id="@+id/container1"
+			android:layout_width="fill_parent" android:background="@android:drawable/bottom_bar"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewLeftArrow1"
+				android:layout_height="wrap_content" android:text="&lt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+			<ImageView android:src="@drawable/icon" android:id="@+id/imgViewPhoto1"
+				android:layout_marginLeft="7dp" android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp" android:layout_height="fill_parent"
+				android:layout_width="100dp"></ImageView>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_weight="1"
+				android:orientation="vertical" android:gravity="right">
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewTagged1"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Tagged" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewUploaded1"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Uploaded" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+			</LinearLayout>
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewRightArrow1"
+				android:layout_height="wrap_content" android:text="&gt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="70dp" android:id="@+id/container2"
+			android:layout_width="fill_parent" android:background="@android:drawable/bottom_bar"
+			android:orientation="horizontal" android:visibility="gone">
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewLeftArrow2"
+				android:layout_height="wrap_content" android:text="&lt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+			<ImageView android:src="@drawable/icon" android:id="@+id/imgViewPhoto2"
+				android:layout_marginLeft="7dp" android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp" android:layout_height="fill_parent"
+				android:layout_width="100dp"></ImageView>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_weight="1"
+				android:orientation="vertical" android:gravity="right">
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewTagged2"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Tagged" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewUploaded2"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Uploaded" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+			</LinearLayout>
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewRightArrow2"
+				android:layout_height="wrap_content" android:text="&gt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="70dp" android:id="@+id/container3"
+			android:layout_width="fill_parent" android:background="@android:drawable/bottom_bar"
+			android:orientation="horizontal" android:visibility="gone">
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewLeftArrow3"
+				android:layout_height="wrap_content" android:text="&lt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+			<ImageView android:src="@drawable/icon" android:id="@+id/imgViewPhoto3"
+				android:layout_marginLeft="7dp" android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp" android:layout_height="fill_parent"
+				android:layout_width="100dp"></ImageView>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_weight="1"
+				android:orientation="vertical" android:gravity="right">
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewTagged3"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Tagged" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+				<TextView android:layout_width="wrap_content" android:id="@+id/txtViewUploaded3"
+					android:layout_height="wrap_content" android:textStyle="bold"
+					android:text="Uploaded" android:layout_marginRight="7dp"
+					android:layout_marginTop="10dp" android:textColor="@color/darkgray"></TextView>
+			</LinearLayout>
+			<TextView android:layout_width="wrap_content" android:id="@+id/txtViewRightArrow3"
+				android:layout_height="wrap_content" android:text="&gt;" android:textStyle="bold"
+				android:textColor="@color/white" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_gravity="center_vertical"></TextView>
+		</LinearLayout>
+		<ScrollView android:layout_height="wrap_content"
+			android:id="@+id/scrollView1" android:layout_width="fill_parent"
+			android:fillViewport="true" android:layout_weight="1">
+			<LinearLayout android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:orientation="vertical">
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="90dp" android:textStyle="bold" android:text="Date:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtPDate"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnPickDate"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:src="@drawable/calendar" android:background="@drawable/calendar"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"
+						android:layout_gravity="center_vertical"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Time: "
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     Start: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtStartTime"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnPickStartTime"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:background="@drawable/clocka" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     End: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtEndTime"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnPickEndTime"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:background="@drawable/clocka" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Temperature (°C): "
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     Start: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtStartTmp"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkStartTmp" android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"
+						android:background="@drawable/speak"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     End: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtEndTmp"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkEndTmp" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Humidity (%): "
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     Start: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtStartHumidity"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkStartHumidity" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="     End: "
+						android:textColor="#000000" android:width="90dp"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtEndHumidity"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkEndHumidity" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Cloud Cover:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtCloudCover"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnCloudCover"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:src="@drawable/cloud" android:background="@drawable/cloud"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Wind Conditions:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtWindConditions"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnWindConditions"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:src="@drawable/wind" android:background="@drawable/wind"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Study Site Location: "
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content"
+						android:id="@+id/edtStudySiteLocation" android:layout_width="wrap_content"
+						android:layout_weight="1" android:layout_marginLeft="7dp"
+						android:height="90dp"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkStudySiteLocation" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Latitude:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLatitudeDegree"
+						android:layout_marginLeft="7dp" android:layout_width="wrap_content"
+						android:width="90dp" android:numeric="integer|signed"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="°"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLatitudeMinute"
+						android:layout_width="wrap_content" android:width="90dp"
+						android:numeric="integer"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="'"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLatitudeSecond"
+						android:layout_width="wrap_content" android:width="90dp"
+						android:numeric="decimal"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="&quot;"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Longitude:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLongitudeDegree"
+						android:layout_marginLeft="7dp" android:layout_width="wrap_content"
+						android:width="90dp" android:numeric="integer|signed"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="°"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLongitudeMinute"
+						android:layout_width="wrap_content" android:width="90dp"
+						android:numeric="integer"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="'"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLongitudeSecond"
+						android:layout_width="wrap_content" android:width="90dp"
+						android:numeric="decimal"></EditText>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="&quot;"
+						android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+						android:layout_gravity="top"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:textStyle="bold" android:text="Length of Transect(m):"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtLengthOfTransect"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:numeric="decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkLengthOfTransect" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="95dp" android:textStyle="bold" android:text="Urbanization:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtUrbanization"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnUrbanization"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:src="@drawable/urbanization" android:background="@drawable/urbanization"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Vegetation Types / Ecosystems: "
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtVegetationTypes"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:height="100dp"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnVegetationTypes"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical" android:src="@drawable/vegetation"
+						android:background="@drawable/vegetation"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="90dp" android:textStyle="bold" android:text="Species:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtSpecies"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:editable="false"></EditText>
+					<ImageButton android:id="@+id/imgBtnSpecies"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:src="@drawable/species" android:background="@drawable/species"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="147dp" android:textStyle="bold" android:text="Height Above Ground(m):"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content"
+						android:id="@+id/edtHeightAboveGround" android:layout_width="wrap_content"
+						android:layout_weight="1" android:layout_marginLeft="7dp"
+						android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkHeightAboveGround" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="147dp" android:textStyle="bold"
+						android:text="Resting Spot Temperature:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtRestingSpotTmp"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:numeric="signed|decimal"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkRestingSpotTmp" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Behavior/Interactions:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtBehavior"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:height="90dp"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkBehavior" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Comments:"
+						android:textColor="#000000" android:textStyle="bold"
+						android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"></TextView>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtComments"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:layout_marginLeft="7dp" android:height="90dp"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkComments" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="90dp" android:textStyle="bold" android:text="Observer(s) Initials:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtObserverInitials"
+						android:layout_width="wrap_content" android:layout_weight="1"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkObserverInitials" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="90dp" android:textStyle="bold" android:text="Observer email:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtObserverEmail"
+						android:layout_width="wrap_content" android:layout_weight="1"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkObserverEmail" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"
+					android:layout_width="fill_parent" android:orientation="horizontal">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:width="90dp" android:textStyle="bold" android:text="Affiliated School:"
+						android:layout_marginLeft="7dp" android:layout_marginRight="7dp"
+						android:layout_gravity="center_vertical"></TextView>
+					<EditText android:layout_height="wrap_content" android:id="@+id/edtAffiliatedSchool"
+						android:layout_width="wrap_content" android:layout_weight="1"></EditText>
+					<ImageButton android:layout_width="wrap_content"
+						android:id="@+id/btnSpkAffiliatedSchool" android:layout_height="wrap_content"
+						android:background="@drawable/speak" android:layout_gravity="center_vertical"
+						android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:background="@android:drawable/bottom_bar">
+		<Button android:text="Back" android:id="@+id/ButtonCancelTag"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:scaleType="centerInside" android:layout_weight="1"
+			android:layout_gravity="center" android:drawableLeft="@drawable/cancel"></Button>
+		<Button android:text="Save" android:id="@+id/ButtonSaveTag"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:scaleType="centerInside" android:layout_weight="1"
+			android:layout_gravity="center" android:drawableLeft="@drawable/save"></Button>
+		<Button android:text="Upload" android:id="@+id/ButtonUpload"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:scaleType="centerInside" android:layout_weight="1"
+			android:layout_gravity="center" android:drawableLeft="@drawable/upload"></Button>
+	</LinearLayout>
+</LinearLayout>

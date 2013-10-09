@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal"
+	android:background="#FFFFFF" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1"
+		android:layout_width="fill_parent" android:fillViewport="true"
+		android:layout_weight="1">
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:orientation="vertical">
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="lizardbase Server URL: "
+					android:textColor="#000000" android:textStyle="bold"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<EditText android:layout_height="wrap_content" android:id="@+id/edtServer"
+					android:layout_width="wrap_content" android:layout_weight="1"
+					android:layout_marginLeft="7dp"></EditText>
+				<ImageButton android:layout_width="wrap_content"
+					android:id="@+id/btnConnect" android:layout_height="wrap_content"
+					android:background="@drawable/connect" android:layout_gravity="center_vertical"
+					android:layout_marginLeft="7dp" android:layout_marginRight="13dp"></ImageButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="School: "
+					android:textColor="#000000" android:textStyle="bold"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<EditText android:layout_height="wrap_content" android:id="@+id/edtSchool"
+					android:layout_width="wrap_content" android:layout_weight="1"
+					android:layout_marginLeft="7dp" android:editable="false"></EditText>
+				<Button android:layout_width="wrap_content"
+					android:id="@+id/btnSchool" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginRight="13dp" android:background="@color/white"
+					android:drawableLeft="@drawable/school" android:enabled="false"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Class:"
+					android:textColor="#000000" android:textStyle="bold"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<EditText android:layout_height="wrap_content" android:id="@+id/edtClass"
+					android:layout_width="wrap_content" android:layout_weight="1"
+					android:layout_marginLeft="7dp" android:editable="false"></EditText>
+				<Button android:layout_width="wrap_content" android:id="@+id/btnClass"
+					android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+					android:layout_marginLeft="7dp" android:layout_marginRight="13dp"
+					android:background="@color/white" android:drawableLeft="@drawable/books" android:enabled="false"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Login ID:"
+					android:textColor="#000000" android:textStyle="bold"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<EditText android:layout_height="wrap_content" android:id="@+id/edtUser"
+					android:layout_width="wrap_content" android:layout_weight="1"
+					android:layout_marginLeft="7dp"></EditText>
+				<ImageButton android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@drawable/empty"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginRight="13dp"></ImageButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Password:"
+					android:textColor="#000000" android:textStyle="bold"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginTop="7dp" android:layout_marginBottom="7dp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:orientation="horizontal">
+				<EditText android:layout_height="wrap_content" android:id="@+id/edtPassword"
+					android:layout_width="wrap_content" android:layout_weight="1"
+					android:layout_marginLeft="7dp" android:password="true"></EditText>
+				<ImageButton android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@drawable/empty"
+					android:layout_gravity="center_vertical" android:layout_marginLeft="7dp"
+					android:layout_marginRight="13dp"></ImageButton>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:background="@android:drawable/bottom_bar">
+		<Button android:text="Back" android:id="@+id/ButtonCancel"
+			android:layout_width="fill_parent" android:scaleType="centerInside"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:drawableLeft="@drawable/cancel"></Button>
+		<Button android:text="Test" android:id="@+id/ButtonTest"
+			android:layout_width="fill_parent" android:scaleType="centerInside"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:drawableLeft="@drawable/test"></Button>
+		<Button android:text="Save" android:id="@+id/ButtonSave"
+			android:layout_width="fill_parent" android:scaleType="centerInside"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:drawableLeft="@drawable/save"></Button>
+	</LinearLayout>
+</LinearLayout>
