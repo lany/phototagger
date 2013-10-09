@@ -1,7 +1,7 @@
 phototagger
 ===========
 
-PhotoTagger is an Android app for lizardbase's users to record the original data of lizards in the wild.
+Phototagger is an Android app that specifically allows users to directly upload photos tagged with metadata to the lizardbase server. This metadata includes automated timestamps and geographic location (latitude and longitude) and a whole slew of collection data such as species, perch height, and weather conditions. Phototagger can be downloaded to your Anroid phone at the Android Market, for free.
 
 Screenshots
 ---------
